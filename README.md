@@ -1,11 +1,11 @@
-# 🚀 RISC-V SoC RTL → GDSII Journey  
+# 🚀 RISC-V SoC RTL → GDSII | VSD Program  
 
-![banner](assets/banner.png)
 
-Welcome to my repository documenting my **week-by-week progress** through the  
+
+Welcome to this repository my **week-by-week progress** through the  
 **RISC-V SoC Tapeout Program (VSD)** ⚡.  
 
-This repo is my hands-on logbook as I explore how to take a **System-on-Chip (SoC)**  
+In this repository i will upload week by week of my progress in this program of **RISC-V**
 from **RTL design to GDSII layout** using **open-source EDA tools**.  
 
 ---
@@ -14,9 +14,7 @@ from **RTL design to GDSII layout** using **open-source EDA tools**.
 
 | Week | Task | Description | Status |
 |------|------|-------------|--------|
-| 0️⃣ | [Task 0](Week0/Task0/README.md) | Installed and tested tools *(Icarus Verilog, Yosys, GTKWave)* | ✅ Completed |
-| 1️⃣ | Task 1 | RTL design & testbenches | ⏳ In Progress |
-| 2️⃣ | Task 2 | Logic synthesis experiments | 🔜 Coming Soon |
+| 0️⃣ | [Task 0] | Installed and tested tools *(Icarus Verilog, Yosys, GTKWave)* | ✅ Completed |
 
 ---
 
