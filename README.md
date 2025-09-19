@@ -60,7 +60,7 @@ This project is powered by a complete **open-source VLSI design toolchain**.
 ---
 
 ### 🧭 THANKS TO-> 
-Very Grateful to **Kunal Ghosh** and the **VSD team** for running this initiative, IIT Gandhinagar for their huge support  
+Very Grateful to [**Kunal Ghosh**](https://github.com/kunalg123) and the **[VLSI System Design (VSD)](https://vsdiat.vlsisystemdesign.com/)** for running this initiative, IIT Gandhinagar for their huge support  
 and to **RISC-V International, ISM, VSI, and Efabless** for their contributions 🌟.  
 
 ---
