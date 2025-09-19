@@ -50,10 +50,12 @@ Some of the technical highlights include:
 ---
 
 ## 🛠️ Tools & Tech  
-- Verilog  
-- Yosys  
-- GTKWave  
-- Open-Source ASIC Flow  
+This project is powered by a complete **open-source VLSI design toolchain**.
+
+- 💻 **RTL Design & Simulation**  
+  - **Verilog HDL** → Hardware description of RISC-V modules  
+  - **Icarus Verilog** → RTL compilation & simulation  
+  - **GTKWave** → Waveform analysis and debugging   
 
 ---
 
