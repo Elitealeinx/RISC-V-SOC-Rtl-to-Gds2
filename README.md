@@ -34,9 +34,18 @@ The complete flow covers every stage of a modern VLSI design pipeline:
 ---
 
 ## 💡 Key Learnings  
-- Setup and verification of **open-source EDA tools**.  
-- Basics of **RTL → synthesis → GDS flow**.  
-- Getting ready for deeper VLSI experiments 🚀.  
+Throughout this program, I explored not just tools, but also the **fundamentals of modern digital VLSI design**.  
+Some of the technical highlights include:  
+
+- 🧮 **Digital Design Concepts** → RTL modeling of arithmetic & control units for RISC-V ISA.  
+- 🔄 **Logic Synthesis** → Mapping RTL into optimized **gate-level netlists** using Yosys.  
+- 🧩 **Standard Cell Libraries** → Understanding cell characterization, PDK usage, and cell mapping.  
+- ⏱️ **Static Timing Analysis (STA)** → Setup/Hold time checks, timing closure, and slack optimization.  
+- 🏗️ **Physical Design** → Floorplanning, placement, and clock tree synthesis (CTS) strategies.  
+- 🛣️ **Routing & DRC/LVS** → Signal and power routing with design rule compliance.  
+- 🖥️ **Open-Source EDA Flow** → End-to-end SoC design with tools like **Icarus Verilog, GTKWave, Yosys, and OpenROAD**.  
+
+👉 This journey built a strong foundation in **RTL-to-GDSII design methodology**, while deepening my understanding of **RISC-V processor implementation**.  
 
 ---
 
