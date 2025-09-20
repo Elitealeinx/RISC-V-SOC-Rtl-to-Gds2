@@ -1,10 +1,4 @@
-# RISC-V Reference SoC Tapeout Program (VSD)
-
-[![Ubuntu](https://img.shields.io/badge/OS-Ubuntu%2020.04+-orange)](https://ubuntu.com/)  
-[![RAM](https://img.shields.io/badge/RAM-6GB-blue)]  
-[![Disk Space](https://img.shields.io/badge/Disk-50GB-lightgrey)]  
-
-This repository provides instructions for setting up essential open-source EDA tools for the RISC-V SoC development and tapeout program. Currently, it covers the installation of **Yosys**, **Icarus Verilog (Iverilog)**, and **GTKWave**.
+## WEEK 0 | TASK 1 Report
 
 ---
 
