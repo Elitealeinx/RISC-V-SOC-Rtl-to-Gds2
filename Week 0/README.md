@@ -2,7 +2,11 @@
 
 ---
 
-## System Requirements
+### Tool installation
+---
+
+
+#### System Requirements
 
 - **RAM:** 6 GB minimum  
 - **Disk Space:** 50 GB minimum  
@@ -11,10 +15,19 @@
 
 ---
 
-## Optional: Resize Ubuntu Window (Virtual Machine)
-
+#### <ins>**Yosys**</ins>
 ```bash
-sudo apt update
-sudo apt install build-essential dkms linux-headers-$(uname -r)
-cd /media/spatha/VBox_GAs_7.1.8/
-./autorun.sh
+$ sudo apt-get update
+$ git clone https://github.com/YosysHQ/yosys.git
+$ cd yosys
+$ sudo apt install make               # If make is not installed
+$ sudo apt-get install build-essential clang bison flex \
+    libreadline-dev gawk tcl-dev libffi-dev git \
+    graphviz xdot pkg-config python3 libboost-system-dev \
+    libboost-python-dev libboost-filesystem-dev zlib1g-dev
+$ make config-gcc
+# Yosys build depends on a Git submodule called abc, which hasn't been initialized yet. You need to run the following command before running make
+$ git submodule update --init --recursive
+$ make 
+$ sudo make install
+```
