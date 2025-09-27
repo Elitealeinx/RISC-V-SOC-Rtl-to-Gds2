@@ -1,0 +1,32 @@
+digraph "dff_const3" {
+label="dff_const3";
+rankdir="LR";
+remincross=true;
+n6 [ shape=octagon, label="clk", color="black", fontcolor="black" ];
+n7 [ shape=octagon, label="q", color="black", fontcolor="black" ];
+n8 [ shape=diamond, label="q1", color="black", fontcolor="black" ];
+n9 [ shape=octagon, label="reset", color="black", fontcolor="black" ];
+c12 [ shape=record, label="{{<p10> A}|$255\nsky130_fd_sc_hd__clkinv_1|{<p11> Y}}",  ];
+c13 [ shape=record, label="{{<p10> A}|$256\nsky130_fd_sc_hd__clkinv_1|{<p11> Y}}",  ];
+c18 [ shape=record, label="{{<p14> CLK|<p15> D|<p16> SET_B}|$247\nsky130_fd_sc_hd__dfstp_2|{<p17> Q}}",  ];
+v0 [ label="1'1" ];
+c20 [ shape=record, label="{{<p14> CLK|<p15> D|<p19> RESET_B}|$248\nsky130_fd_sc_hd__dfrtp_1|{<p17> Q}}",  ];
+x1 [shape=box, style=rounded, label="BUF", ];
+x2 [shape=box, style=rounded, label="BUF", ];
+x3 [shape=box, style=rounded, label="BUF", ];
+c12:p11:e -> x2:w [color="black", fontcolor="black", label=""];
+c13:p11:e -> x3:w [color="black", fontcolor="black", label=""];
+n3 [ shape=point ];
+x1:e -> n3:w [color="black", fontcolor="black", label=""];
+n3:e -> c12:p10:w [color="black", fontcolor="black", label=""];
+n3:e -> c13:p10:w [color="black", fontcolor="black", label=""];
+x2:e -> c18:p16:w [color="black", fontcolor="black", label=""];
+x3:e -> c20:p19:w [color="black", fontcolor="black", label=""];
+n6:e -> c18:p14:w [color="black", fontcolor="black", label=""];
+n6:e -> c20:p14:w [color="black", fontcolor="black", label=""];
+c18:p17:e -> n7:w [color="black", fontcolor="black", label=""];
+c20:p17:e -> n8:w [color="black", fontcolor="black", label=""];
+n8:e -> c18:p15:w [color="black", fontcolor="black", label=""];
+n9:e -> x1:w [color="black", fontcolor="black", label=""];
+v0:e -> c20:p15:w [color="black", fontcolor="black", label=""];
+}
