@@ -1,0 +1,22 @@
+digraph "opt_check3" {
+label="opt_check3";
+rankdir="LR";
+remincross=true;
+n6 [ shape=octagon, label="a", color="black", fontcolor="black" ];
+n7 [ shape=octagon, label="b", color="black", fontcolor="black" ];
+n8 [ shape=octagon, label="c", color="black", fontcolor="black" ];
+n9 [ shape=octagon, label="y", color="black", fontcolor="black" ];
+c14 [ shape=record, label="{{<p10> A|<p11> B|<p12> C}|$92\nsky130_fd_sc_hd__and3_1|{<p13> X}}",  ];
+x0 [shape=box, style=rounded, label="BUF", ];
+x1 [shape=box, style=rounded, label="BUF", ];
+x2 [shape=box, style=rounded, label="BUF", ];
+x3 [shape=box, style=rounded, label="BUF", ];
+x2:e -> c14:p12:w [color="black", fontcolor="black", label=""];
+x0:e -> c14:p10:w [color="black", fontcolor="black", label=""];
+x1:e -> c14:p11:w [color="black", fontcolor="black", label=""];
+c14:p13:e -> x3:w [color="black", fontcolor="black", label=""];
+n6:e -> x2:w [color="black", fontcolor="black", label=""];
+n7:e -> x0:w [color="black", fontcolor="black", label=""];
+n8:e -> x1:w [color="black", fontcolor="black", label=""];
+x3:e -> n9:w [color="black", fontcolor="black", label=""];
+}
