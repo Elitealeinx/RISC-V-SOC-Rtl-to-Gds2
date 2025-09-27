@@ -21,3 +21,24 @@ This task covers:
 iverilog -o sim.out design.v tb_design.v
 vvp sim.out
 gtkwave dump.vcd
+
+---
+
+### ⚡ Task 2.1 – Logic Synthesis with `yosys`
+
+| 💻 Command | 📖 Description |
+|------------|----------------|
+| `yosys` | Launches the **yosys interactive shell**. |
+| `read_verilog design.v` | Reads and loads the Verilog design file. |
+| `synth -top design` | Synthesizes the design, specifying the **top module**. |
+| `write_json design.json` | Exports the synthesized netlist in **JSON format**. |
+| `write_verilog design_netlist.v` | Generates the synthesized gate-level **Verilog netlist**. |
+| `show` | Displays a schematic diagram of the synthesized design (requires `xdot`). |
+
+👉 **Example Yosys Script (`run_yosys.ys`)**:  
+```tcl
+read_verilog design.v
+synth -top design
+write_json design.json
+write_verilog design_netlist.v
+show
