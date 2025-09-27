@@ -27,16 +27,22 @@ gtkwave dump.vcd
 | 💻 Command | 📖 Description |
 |------------|----------------|
 | `yosys` | Launches the **yosys interactive shell**. |
+| `read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib` | Adding library file with yosys system. |
 | `read_verilog design.v` | Reads and loads the Verilog design file. |
 | `synth -top design` | Synthesizes the design, specifying the **top module**. |
-| `write_json design.json` | Exports the synthesized netlist in **JSON format**. |
-| `write_verilog design_netlist.v` | Generates the synthesized gate-level **Verilog netlist**. |
-| `show` | Displays a schematic diagram of the synthesized design (requires `xdot`). |
+| `abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib` | conneting .lib file to generate netlist. |
+| `write_verilog design_netlist.v` | Generates the synthesized gate_level netlist verilog file. |
+| `write_verilog -noattr design_netlist.v` | Generates the synthesized gate-level netlist without attributes. |
+| `show -format pdf -prefix design.v design` | Generates netlist xdot and pdf file. |
 
-👉 **Example Yosys Script (`run_yosys.ys`)**:  
-```tcl
-read_verilog design.v
-synth -top design
-write_json design.json
-write_verilog design_netlist.v
-show
+👉 **Example Yosys Script**:  
+```bash
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog mux.v
+synth -top mux
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+write_verilog mux_netlist.v
+write_verilog -noattr mux_netlist.v
+show -format pdf -prefix design.v design
+```
