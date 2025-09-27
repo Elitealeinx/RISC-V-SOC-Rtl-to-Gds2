@@ -1,0 +1,14 @@
+digraph "dff_async" {
+label="dff_async";
+rankdir="LR";
+remincross=true;
+n1 [ shape=octagon, label="clk", color="black", fontcolor="black" ];
+n2 [ shape=octagon, label="d", color="black", fontcolor="black" ];
+n3 [ shape=octagon, label="q", color="black", fontcolor="black" ];
+n4 [ shape=octagon, label="rst", color="black", fontcolor="black" ];
+c9 [ shape=record, label="{{<p5> C|<p6> D|<p7> R}|$173\n$_DFF_PP0_|{<p8> Q}}",  ];
+n1:e -> c9:p5:w [color="black", fontcolor="black", label=""];
+n2:e -> c9:p6:w [color="black", fontcolor="black", label=""];
+c9:p8:e -> n3:w [color="black", fontcolor="black", label=""];
+n4:e -> c9:p7:w [color="black", fontcolor="black", label=""];
+}
