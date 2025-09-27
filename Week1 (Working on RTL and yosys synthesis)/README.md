@@ -1,5 +1,5 @@
-# 📘 Week 1 | Task 2  
-### 🔹 Verilog Simulation & Synthesis using **Icarus Verilog (iverilog)**, **GTKWave**, and **Yosys**
+## 📘 Week 1 | Task 2  
+#### 🔹 Verilog Simulation & Synthesis using **Icarus Verilog (iverilog)**, **GTKWave**, and **Yosys**
 
 This task covers:
 - ✅ Running Verilog simulations using **iverilog**  
@@ -8,7 +8,7 @@ This task covers:
 
 ---
 
-## ⚡ Task 2.1 – Verilog Simulation with `iverilog` & `gtkwave`
+### ⚡ Task 2.1 – Verilog Simulation with `iverilog` & `gtkwave`
 
 | 💻 Command | 📖 Description |
 |------------|----------------|
