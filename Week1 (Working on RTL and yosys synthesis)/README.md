@@ -21,10 +21,7 @@ This task covers:
 iverilog -o sim.out design.v tb_design.v
 vvp sim.out
 gtkwave dump.vcd
-\```bash
-
----
-
+```
 ### ⚡ Task 2.1 – Logic Synthesis with `yosys`
 
 | 💻 Command | 📖 Description |
