@@ -1,0 +1,20 @@
+digraph "dff_const1" {
+label="dff_const1";
+rankdir="LR";
+remincross=true;
+n4 [ shape=octagon, label="clk", color="black", fontcolor="black" ];
+n5 [ shape=octagon, label="q", color="black", fontcolor="black" ];
+n6 [ shape=octagon, label="reset", color="black", fontcolor="black" ];
+c9 [ shape=record, label="{{<p7> A}|$85\nsky130_fd_sc_hd__clkinv_1|{<p8> Y}}",  ];
+v0 [ label="1'1" ];
+c14 [ shape=record, label="{{<p10> CLK|<p11> D|<p12> RESET_B}|$80\nsky130_fd_sc_hd__dfrtp_1|{<p13> Q}}",  ];
+x1 [shape=box, style=rounded, label="BUF", ];
+x2 [shape=box, style=rounded, label="BUF", ];
+c9:p8:e -> x2:w [color="black", fontcolor="black", label=""];
+x1:e -> c9:p7:w [color="black", fontcolor="black", label=""];
+x2:e -> c14:p12:w [color="black", fontcolor="black", label=""];
+n4:e -> c14:p10:w [color="black", fontcolor="black", label=""];
+c14:p13:e -> n5:w [color="black", fontcolor="black", label=""];
+n6:e -> x1:w [color="black", fontcolor="black", label=""];
+v0:e -> c14:p11:w [color="black", fontcolor="black", label=""];
+}
