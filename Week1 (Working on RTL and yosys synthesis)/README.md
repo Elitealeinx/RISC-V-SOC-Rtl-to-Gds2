@@ -44,5 +44,5 @@ synth -top mux
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 write_verilog mux_netlist.v
 write_verilog -noattr mux_netlist.v
-show -format pdf -prefix design.v design
+show -format pdf -prefix mux.v mux
 ```
