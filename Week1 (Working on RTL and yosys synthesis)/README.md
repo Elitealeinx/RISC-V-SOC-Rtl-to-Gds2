@@ -35,7 +35,7 @@ gtkwave dump.vcd
 | `write_verilog -noattr design_netlist.v` | Generates the synthesized gate-level netlist without attributes. |
 | `show -format pdf -prefix design.v design` | Generates netlist xdot and pdf file. |
 | `opt_check -purge` | optimise combinational ckt and clean the extra wire and cells. |
-| `abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib` | optimise sequential ckt and clean the extra wire and cells. |
+| `dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib` | optimise sequential ckt and clean the extra wire and cells. |
 
 👉 **Example Yosys Script**:  
 ```bash
