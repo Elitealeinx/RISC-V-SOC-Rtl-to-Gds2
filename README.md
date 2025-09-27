@@ -30,6 +30,7 @@ The complete flow covers every stage of a modern VLSI design pipeline:
 | Week | Task | Description | Status |
 |------|------|-------------|--------|
 | 0️⃣ | [Task 1] | Installed and tested tools *(Icarus Verilog, Yosys, GTKWave)* | ✅ Completed |
+| 1️⃣ | [Task 2] | RTL Simulation and yosys synthesis practice | ongoing |
 
 ---
 
