@@ -1,1 +1,1 @@
-![waveform](images/my-image.png)
+![waveform](demux_waveform.png)
