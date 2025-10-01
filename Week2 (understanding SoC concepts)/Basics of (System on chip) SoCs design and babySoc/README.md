@@ -1,18 +1,18 @@
-# ⚡ System on Chip (SoC) – Complete Guide
+# System on Chip (SoC)
 
 A **System on Chip (SoC)** is an **integrated circuit (IC)** that combines all the essential components of a computer or electronic system into a **single chip**.  
 Think of it like fitting the **entire motherboard of a computer into one chip**.  
 
 ---
 
-## 🔹 What is an SoC?
+### 🔹 What is an SoC?
 - **Highly integrated IC** that combines CPU, GPU, memory, and peripherals.  
 - Saves space, reduces power, and improves efficiency.  
 - Used in smartphones, IoT, automotive, and more.  
 
 ---
 
-## 🧩 Key Components of an SoC
+### 🧩 Key Components of an SoC
 - **CPU (Central Processing Unit)** – General-purpose processing  
 - **GPU (Graphics Processing Unit)** – Graphics & parallel workloads  
 - **Memory Units** – RAM controllers, cache, storage management  
@@ -26,7 +26,7 @@ Think of it like fitting the **entire motherboard of a computer into one chip**.
 
 ---
 
-## ✨ Characteristics
+### ✨ Characteristics
 - 🔹 **Highly Integrated** – Multiple subsystems in one chip  
 - 🔹 **Compact & Lightweight** – Saves board space  
 - 🔹 **Energy Efficient** – Ideal for mobile devices  
@@ -35,35 +35,35 @@ Think of it like fitting the **entire motherboard of a computer into one chip**.
 
 ---
 
-## 🚀 Applications of SoCs
+### 🚀 Applications of SoCs
 
-### 📱 Mobile & Consumer Electronics
+#### 📱 Mobile & Consumer Electronics
 - Smartphones (Apple A-series, Snapdragon, Exynos)  
 - Tablets, smartwatches, smart TVs, wearables  
 
-### 🚗 Automotive
+#### 🚗 Automotive
 - ADAS (Advanced Driver Assistance Systems)  
 - Infotainment systems  
 - Autonomous vehicle processors (NVIDIA Drive, Tesla FSD chip)  
 
-### 🏠 IoT & Smart Devices
+#### 🏠 IoT & Smart Devices
 - Smart speakers (Echo, Nest)  
 - Home automation hubs  
 - Smart appliances  
 
-### 🖥️ Computing & AI
+#### 🖥️ Computing & AI
 - Edge AI devices  
 - Laptops (Apple M1/M2)  
 - Machine learning accelerators  
 
-### 🛰️ Industrial & Embedded Systems
+#### 🛰️ Industrial & Embedded Systems
 - Robotics  
 - Medical devices  
 - Aerospace & defense  
 
 ---
 
-## 🔥 Examples of Popular SoCs
+### 🔥 Examples of Popular SoCs
 - **Apple A16 / M1 / M2** – iPhones & Macs  
 - **Qualcomm Snapdragon 8 Gen series** – Android flagships  
 - **Samsung Exynos** – Samsung smartphones  
@@ -73,26 +73,19 @@ Think of it like fitting the **entire motherboard of a computer into one chip**.
 
 ---
 
-## ✅ Advantages vs ❌ Disadvantages
+### ✅ Advantages vs ❌ Disadvantages
 
-### Advantages
+#### Advantages
 - 🟢 Compact, small form factor  
 - 🟢 Low power consumption  
 - 🟢 High performance due to integration  
 - 🟢 Lower manufacturing cost  
 
-### Disadvantages
+#### Disadvantages
 - 🔴 Hard to upgrade components separately  
 - 🔴 Heat dissipation issues  
 - 🔴 Expensive design process  
 - 🔴 If one part fails → entire chip replacement  
 
 ---
-
-## 📌 Summary
-**SoCs are the brains of modern devices**, optimized for power, performance, and compactness.  
-They enable slim smartphones, smartwatches, autonomous cars, and IoT innovations.  
-
----
-💡 *Future of SoCs → More AI integration, smaller nodes (3nm, 2nm), and specialized accelerators for edge computing.*
 
