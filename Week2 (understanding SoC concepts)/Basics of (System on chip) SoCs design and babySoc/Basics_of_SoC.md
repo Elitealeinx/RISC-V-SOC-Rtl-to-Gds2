@@ -10,6 +10,7 @@ Think of it like fitting the **entire motherboard of a computer into one chip**.
 - Saves space, reduces power, and improves efficiency.  
 - Used in smartphones, IoT, automotive, and more.  
 
+![Soc design](https://www.researchgate.net/profile/Amr-Abdel-Hamid-4/publication/254101812/figure/fig4/AS:670548573057038@1536882646975/SOC-Design-Flow-and-IP-Blocks-Deliverable.png)
 
 
 ### 🧩 Key Components of an SoC
