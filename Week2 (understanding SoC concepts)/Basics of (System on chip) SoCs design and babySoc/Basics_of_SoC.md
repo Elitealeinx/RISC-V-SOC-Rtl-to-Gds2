@@ -10,7 +10,7 @@ Think of it like fitting the **entire motherboard of a computer into one chip**.
 - Saves space, reduces power, and improves efficiency.  
 - Used in smartphones, IoT, automotive, and more.  
 
----
+
 
 ### 🧩 Key Components of an SoC
 - **CPU (Central Processing Unit)** – General-purpose processing  
@@ -24,7 +24,7 @@ Think of it like fitting the **entire motherboard of a computer into one chip**.
 - **Power Management** – Optimizes power use  
 - **Security Modules** – Encryption, secure boot, trusted execution  
 
----
+
 
 ### ✨ Characteristics
 - 🔹 **Highly Integrated** – Multiple subsystems in one chip  
@@ -33,7 +33,6 @@ Think of it like fitting the **entire motherboard of a computer into one chip**.
 - 🔹 **Cost-Effective** – Lower BOM cost  
 - 🔹 **Customizable** – Designed for specific use cases  
 
----
 
 ### 🚀 Applications of SoCs
 
@@ -61,7 +60,7 @@ Think of it like fitting the **entire motherboard of a computer into one chip**.
 - Medical devices  
 - Aerospace & defense  
 
----
+
 
 ### 🔥 Examples of Popular SoCs
 - **Apple A16 / M1 / M2** – iPhones & Macs  
@@ -71,7 +70,6 @@ Think of it like fitting the **entire motherboard of a computer into one chip**.
 - **MediaTek Dimensity / Helio** – Mid-range & budget phones  
 - **Broadcom BCM** – Raspberry Pi & networking  
 
----
 
 ### ✅ Advantages vs ❌ Disadvantages
 
@@ -87,5 +85,5 @@ Think of it like fitting the **entire motherboard of a computer into one chip**.
 - 🔴 Expensive design process  
 - 🔴 If one part fails → entire chip replacement  
 
----
+
 
