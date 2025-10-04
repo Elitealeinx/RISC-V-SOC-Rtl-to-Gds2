@@ -57,3 +57,6 @@ sandpiper-saas -i ./src/module/rvmyth.tlv -o rvmyth.v \
 #### 2. Simulate using Iverilog & Gtkwave  
 ![pre synth command](presynth_command.png)
 
+#### 3. Waveform  
+![pre synth command](presynth_waveform.png)
+
