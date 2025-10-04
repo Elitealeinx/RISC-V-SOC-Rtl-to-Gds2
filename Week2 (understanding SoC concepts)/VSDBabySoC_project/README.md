@@ -53,5 +53,7 @@ pip install pyyaml click sandpiper-saas
 sandpiper-saas -i ./src/module/rvmyth.tlv -o rvmyth.v \
 --bestsv --noline -p verilog --outdir ./src/module/
 ```
+
+#### 2. Simulate using Iverilog & Gtkwave  
 ![pre synth command](presynth_command.png)
 
