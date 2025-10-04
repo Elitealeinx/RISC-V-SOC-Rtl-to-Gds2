@@ -59,4 +59,21 @@ sandpiper-saas -i ./src/module/rvmyth.tlv -o rvmyth.v \
 
 #### 3. Waveform  
 ![pre synth command](presynth_waveform.png)
+---
+### 📌 Summary  
+
+The **BabySoC project** is an open-source, educational System-on-Chip built using the RVMYTH RISC-V core, PLL, and DAC.  
+It demonstrates the **end-to-end flow of SoC design and verification** using only open-source tools.  
+
+
+- Converted **TL-Verilog → Verilog** (RVMYTH core).  
+- Performed **Pre-Synthesis Simulation** using Icarus Verilog + GTKWave.  
+- Ran **RTL Synthesis** with Yosys to generate a gate-level netlist.  
+- Validated design correctness with **Post-Synthesis Simulation (GLS)**.  
+- Difference between **RTL vs GLS simulations**.  
+- How a CPU, PLL, and DAC interact in a minimal SoC.  
+- The importance of verifying **functionality first, timing later**.  
+- Gained hands-on exposure to open-source VLSI tools (Icarus, GTKWave, Yosys).  
+
+
 
