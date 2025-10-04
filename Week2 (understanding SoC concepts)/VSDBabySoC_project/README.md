@@ -52,3 +52,6 @@ pip install pyyaml click sandpiper-saas
 # Convert RVMYTH TLV → Verilog
 sandpiper-saas -i ./src/module/rvmyth.tlv -o rvmyth.v \
 --bestsv --noline -p verilog --outdir ./src/module/
+```
+![pre synth command](presynth_command.png)
+
