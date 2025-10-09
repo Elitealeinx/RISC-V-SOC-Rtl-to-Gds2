@@ -64,3 +64,17 @@ This stage verifies that the **synthesized gate-level design** behaves identical
 
 #### Post Synthesis Simulation 
 ![pre synth command](post_synth_waveform.png)
+---
+### 🧾 Pre-Synthesis vs Post-Synthesis Simulation
+
+| Aspect | Pre-Synthesis Simulation | Post-Synthesis Simulation |
+|:--|:--|:--|
+| **Stage** | Before synthesis (RTL level) | After synthesis (Gate-level netlist) |
+| **Input Files** | RTL source files (`.v`, `.sv`) | Synthesized netlist + Standard Cell Library |
+| **Timing Information** | Ideal (no delays) | Includes real timing via SDF annotations |
+| **Purpose** | Verify functional correctness of RTL | Validate gate-level behavior and timing accuracy |
+| **Simulation Macro** | `-DRTL_SIM` | `-DPOST_SYNTH_SIM` |
+| **Output** | RTL simulation log and `.vcd` waveform | Gate-level simulation output and `.vcd` waveform |
+| **Speed** | Faster (high-level abstraction) | Slower (detailed gate-level model) |
+| **Tools** | Icarus Verilog, GTKWave | Icarus Verilog, GTKWave |
+
