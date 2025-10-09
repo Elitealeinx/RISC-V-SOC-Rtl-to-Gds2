@@ -51,12 +51,11 @@ abc -liberty src/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 show 
 ```
-#### Post-Synthesis Simulation
+### Post-Synthesis Simulation
 
 This stage verifies that the **synthesized gate-level design** behaves identically to the RTL model.
 
 🔧 Simulation Setup
 - **Compile** the synthesized netlist along with the standard cell library using **Icarus Verilog**.
 - **Define Macro:**  
-  ```bash
   -DPOST_SYNTH_SIM
