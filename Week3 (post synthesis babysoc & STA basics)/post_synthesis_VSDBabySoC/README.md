@@ -61,3 +61,6 @@ This stage verifies that the **synthesized gate-level design** behaves identical
 - **Compile** the synthesized netlist along with the standard cell library using **Icarus Verilog**.
 - **Define Macro:**  
   -DPOST_SYNTH_SIM
+
+#### Post Synthesis Simulation 
+![pre synth command](post_synth_waveform.png)
