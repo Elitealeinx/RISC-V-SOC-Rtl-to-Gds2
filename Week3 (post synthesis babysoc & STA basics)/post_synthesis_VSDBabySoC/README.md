@@ -36,3 +36,5 @@ vvp a.out
 # View waveforms
 gtkwave dump.vcd
 ```
+#### RTL Synthesis using yosys 
+![pre synth command](code_post.png)
