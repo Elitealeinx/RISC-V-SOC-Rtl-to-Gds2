@@ -51,6 +51,8 @@ abc -liberty src/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 show 
 ```
+
+---
 ### Post-Synthesis Simulation
 
 This stage verifies that the **synthesized gate-level design** behaves identically to the RTL model.
