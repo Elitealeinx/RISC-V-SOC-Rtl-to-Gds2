@@ -27,6 +27,9 @@ Common tools for performing GLS include:
 
 ---
 
+
+#### RTL Synthesis using yosys 
+![pre synth command](code_post.png)
 ```bash
 # Read verilog code
 yosys> read_verilog  -sv -I src/include/ -I src/module/ src/module/vsdbabysoc.v src/module/clk_gate.v src/module/rvmyth.v
@@ -48,5 +51,3 @@ abc -liberty src/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 show 
 ```
-#### RTL Synthesis using yosys 
-![pre synth command](code_post.png)
