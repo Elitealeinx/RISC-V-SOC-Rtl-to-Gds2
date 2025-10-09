@@ -25,16 +25,28 @@ Common tools for performing GLS include:
 - **Icarus Verilog** – for compiling and simulating the gate-level netlist.
 - **GTKWave** – for visualizing and analyzing waveform outputs.
 
-Example simulation flow:
+---
+
 ```bash
-# Compile the gate-level netlist with timing annotations
-iverilog -DFUNCTIONAL -I ./include -s testbench gate_level_netlist.v sdf_annotation.sdf
+# Read verilog code
+yosys> read_verilog  -sv -I src/include/ -I src/module/ src/module/vsdbabysoc.v src/module/clk_gate.v src/module/rvmyth.v
 
-# Run the simulation
-vvp a.out
+# Read Library
+yosys> read_liberty -lib sky130_fd_sc_hd__tt_025C_1v80.lib
 
-# View waveforms
-gtkwave dump.vcd
+read_liberty -lib src/lib/avsddac.lib
+ 
+read_liberty -lib src/lib/avsdpll.lib
+
+# Synthesis
+synth -top vsdbabysoc
+
+# Post Synth generate
+write_verilog vsdbabysoc_netlist.v
+
+abc -liberty src/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+show 
 ```
 #### RTL Synthesis using yosys 
 ![pre synth command](code_post.png)
