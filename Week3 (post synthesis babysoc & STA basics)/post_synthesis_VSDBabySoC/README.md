@@ -77,5 +77,5 @@ This stage verifies that the **synthesized gate-level design** behaves identical
 | **Simulation Macro** | `-DRTL_SIM` | `-DPOST_SYNTH_SIM` |
 | **Output** | RTL simulation log and `.vcd` waveform | Gate-level simulation output and `.vcd` waveform |
 | **Speed** | Faster (high-level abstraction) | Slower (detailed gate-level model) |
-| **Tools** | Icarus Verilog, GTKWave | Icarus Verilog, GTKWave |
+
 
