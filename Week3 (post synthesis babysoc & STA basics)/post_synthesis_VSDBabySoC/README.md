@@ -64,6 +64,7 @@ This stage verifies that the **synthesized gate-level design** behaves identical
 
 #### Post Synthesis Simulation 
 ![pre synth command](post_synth_waveform.png)
+
 ---
 ### 🧾 Pre-Synthesis vs Post-Synthesis Simulation
 
