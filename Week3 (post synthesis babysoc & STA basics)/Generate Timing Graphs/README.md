@@ -14,7 +14,8 @@ After routing, STA helps verify that the design meets timing constraints such as
 The goal is to ensure that timing requirements are met under all operating conditions and to identify any critical paths or timing violations.
 
 ---
-
+![pre synth command](opensta_setup.png)
+---
 ### ⚙️ STA TCL Script
 
 Below is the example **TCL script** used to perform STA across the available PVT corners using the **Sky130HD** libraries.
@@ -80,3 +81,7 @@ export MAGIC_EXT_USE_GDS = 1
 | ss_n40C_1v44     |  -9.6203          |  0.9624          |  -9.6203     | -2727.8179    |
 | ss_n40C_1v76     |  1.8175           |  0.4882          |  0.0000      |   0.0000      |
 
+![pre synth command](worst_hold_slack.png)
+![pre synth command](worst_setup_slack.png)
+![pre synth command](tns.png)
+![pre synth command](wns.png)
