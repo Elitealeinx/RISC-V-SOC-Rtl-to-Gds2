@@ -78,5 +78,15 @@ I_D = μ_n C_{ox} (W/L) [ (V_{GS} - V_{TH})V_{DS} - (V_{DS}^2 / 2) ]
 ```math
 I_D = (1/2) μ_n C_{ox} (W/L) (V_{GS} - V_{TH})^2
 ```
+---
+
+### 🧩 Threshold Voltage (V<sub>TH</sub>)
+
+The minimum gate-to-source voltage required to form a conductive n-type channel between the source and drain.
+
+**Expression:**
+
+```math
+V_{TH} = V_{FB} + 2 \phi_F + \left( \frac{\sqrt{2 \epsilon_s q N_A 2 \phi_F}}{C_{ox}} \right)
 
 
