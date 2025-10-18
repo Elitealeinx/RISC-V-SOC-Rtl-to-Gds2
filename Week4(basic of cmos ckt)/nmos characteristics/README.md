@@ -63,3 +63,20 @@ An NMOS consists of a **p-type substrate** with two **n-type regions** (source a
 **Current Equation:**
 ```math
 I_D = μ_n C_{ox} (W/L) [ (V_{GS} - V_{TH})V_{DS} - (V_{DS}^2 / 2) ]
+```
+---
+
+#### 3️⃣ Saturation (Active) Region
+**Condition:**  
+`VDS ≥ (VGS - VTH)`  
+
+- The channel is **pinched off** near the drain end.  
+- Current becomes **independent of VDS**.  
+- Used for **amplification** in analog circuits.
+
+**Current Equation:**
+```math
+I_D = (1/2) μ_n C_{ox} (W/L) (V_{GS} - V_{TH})^2
+```
+
+
