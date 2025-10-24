@@ -9,7 +9,7 @@ It supports synthesis, floorplanning, placement, clock tree synthesis, routing, 
 
 ### 🚀 Steps to Install OpenROAD and Run GUI
 
-#### 1️⃣ Clone the OpenROAD Repository
+
 ```bash
 git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
 cd OpenROAD-flow-scripts
