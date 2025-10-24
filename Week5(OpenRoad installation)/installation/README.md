@@ -13,4 +13,16 @@ It supports synthesis, floorplanning, placement, clock tree synthesis, routing, 
 ```bash
 git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
 cd OpenROAD-flow-scripts
+
+sudo ./setup.sh
+
+./build_openroad.sh --local
+
+source ./env.sh
+yosys -help  
+openroad -help
+
+cd flow
+
+make gui_final
 ```
