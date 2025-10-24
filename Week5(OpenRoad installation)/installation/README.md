@@ -26,3 +26,6 @@ cd flow
 
 make gui_final
 ```
+![pre synth command](a1.png)
+![pre synth command](a2.png)
+![pre synth command](a3.png)
